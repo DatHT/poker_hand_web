@@ -1,0 +1,20 @@
+<div class="main">
+  <div class="container">
+    <h1>Check a Poker Hand</h1>
+    <div class="content">
+      <%= form_tag("/check", method: "post") do %>
+        <p>
+          <%= text_field_tag :card, (@input_content) %>
+          <br/>
+          <br/>
+          <%= submit_tag "Check", :class => "submit-btn" %>
+        </p>
+      <% end %>
+
+      <div class="error_content">
+        <p style="color: black"><%= @result_content %></p>
+        <p style="color: red;"><%= @error_content %></p>
+      </div>
+    </div>
+  </div>
+</div>
