@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/app/controllers/poker_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="1800">
               <caret line="120" column="122" selection-start-line="120" selection-start-column="122" selection-end-line="120" selection-end-column="122" />
             </state>
           </provider>
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/poker/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -111,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/poker.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="462">
+              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -150,10 +150,10 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/poker.rb" />
         <option value="$PROJECT_DIR$/app/repository/poker_repository.rb" />
-        <option value="$PROJECT_DIR$/app/views/poker/home.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/poker_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/poker.scss" />
         <option value="$PROJECT_DIR$/spec/app/controllers/poker_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/poker.scss" />
+        <option value="$PROJECT_DIR$/app/views/poker/home.html.erb" />
       </list>
     </option>
   </component>
@@ -304,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.PokerController POST check page: poker_hand_web">
+  <component name="RunManager" selected="Rails.Development: poker_hand_web">
     <configuration name="PokerController GET home page has a 200 status code: poker_hand_web" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="poker_hand_web" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -627,17 +627,11 @@
       <workItem from="1559008489763" duration="17541000" />
       <workItem from="1559116681559" duration="1156000" />
       <workItem from="1559194707398" duration="3509000" />
-      <workItem from="1559263796183" duration="800000" />
+      <workItem from="1559263796183" duration="1114000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerController_POST_check_page_五つ項目ではないというメッセージがくるか__poker_hand_web - 2019.05.30 at 19h 44m 20s.xml">
-      <configuration name="PokerController POST check page 五つ項目ではないというメッセージがくるか: poker_hand_web" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PokerController_POST_check_page_五つ項目ではないというメッセージがくるか__poker_hand_web - 2019.05.30 at 19h 44m 33s.xml">
-      <configuration name="PokerController POST check page 五つ項目ではないというメッセージがくるか: poker_hand_web" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="PokerController_POST_check_page_五つ項目ではないというメッセージがくるか__poker_hand_web - 2019.05.30 at 19h 45m 39s.xml">
       <configuration name="PokerController POST check page 五つ項目ではないというメッセージがくるか: poker_hand_web" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -662,9 +656,15 @@
     <history-entry file="PokerController_POST_check_page__poker_hand_web - 2019.05.31 at 10h 02m 24s.xml">
       <configuration name="PokerController POST check page: poker_hand_web" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="PokerController_POST_check_page__poker_hand_web - 2019.05.31 at 10h 04m 38s.xml">
+      <configuration name="PokerController POST check page: poker_hand_web" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PokerController_POST_check_page__poker_hand_web - 2019.05.31 at 10h 10m 14s.xml">
+      <configuration name="PokerController POST check page: poker_hand_web" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23006000" />
+    <option name="totallyTimeSpent" value="23320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -712,9 +712,9 @@
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_GET__home_render_the__home_template__poker_hand_web.rcov" NAME="PokerController GET #home render the :home template: poker_hand_web Coverage Results" MODIFIED="1559025570695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_GET_index_has_a_200_status_code__poker_hand_web.rcov" NAME="PokerController GET index has a 200 status code: poker_hand_web Coverage Results" MODIFIED="1559026122064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_POST_check_page_responds_to_html_page___poker_hand_web.rcov" NAME="PokerController POST check page responds to html page : poker_hand_web Coverage Results" MODIFIED="1559030757452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
-    <SUITE FILE_PATH="coverage/poker_hand_web@Development__poker_hand_web.rcov" NAME="Development: poker_hand_web Coverage Results" MODIFIED="1559264349948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
+    <SUITE FILE_PATH="coverage/poker_hand_web@Development__poker_hand_web.rcov" NAME="Development: poker_hand_web Coverage Results" MODIFIED="1559265053190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_Poker_page_Post_check_card__poker_hand_web.rcov" NAME="PokerController Poker page Post check card: poker_hand_web Coverage Results" MODIFIED="1559024794989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
-    <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_POST_check_page__poker_hand_web.rcov" NAME="PokerController POST check page: poker_hand_web Coverage Results" MODIFIED="1559264665116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
+    <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_POST_check_page__poker_hand_web.rcov" NAME="PokerController POST check page: poker_hand_web Coverage Results" MODIFIED="1559265000666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_GET__home__poker_hand_web.rcov" NAME="PokerController GET #home: poker_hand_web Coverage Results" MODIFIED="1559025779176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_POST_poker_check_responds_to_html_page___poker_hand_web.rcov" NAME="PokerController POST poker#check responds to html page : poker_hand_web Coverage Results" MODIFIED="1559029117604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
     <SUITE FILE_PATH="coverage/poker_hand_web@PokerController_GET_home_page_has_a_200_status_code__poker_hand_web.rcov" NAME="PokerController GET home page has a 200 status code: poker_hand_web Coverage Results" MODIFIED="1559212494243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker_hand_web" />
@@ -811,16 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/poker/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -828,17 +818,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/poker.scss">
+    <entry file="file://$PROJECT_DIR$/spec/app/controllers/poker_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="1800">
+          <caret line="120" column="122" selection-start-line="120" selection-start-column="122" selection-end-line="120" selection-end-column="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/app/controllers/poker_controller_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/poker.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="120" column="122" selection-start-line="120" selection-start-column="122" selection-end-line="120" selection-end-column="122" />
+        <state relative-caret-position="462">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/poker/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
