@@ -90,7 +90,7 @@ RSpec.describe PokerController, :type => :controller do
       post :check, params: { id: "card", card: "H4 H5 H6 H7" }
       expect(response.content_type).to eq "text/html"
       message = URI::decode response.body
-      expect(message).to include '入力データサイズが５ではありません！5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）'
+      expect(message).to include '入力データサイズが５ではありません！5つのカード指定文字を半角スペース区切りで入力してください。（例：S1+H3+D9+C13+S11）'
     end
   end
 
@@ -103,21 +103,13 @@ RSpec.describe PokerController, :type => :controller do
     end
   end
 
-  describe 'POST check page' do
-    it 'Stringかどうかのチェックというメッセージがくるか' do
-      post :check, params: { id: "card", card: 1}
-      expect(response.content_type).to eq "text/html"
-      message = URI::decode response.body
-      expect(message).to include 'Stringで入力してください！'
-    end
-  end
 
   describe 'POST check page' do
     it '重複のチェックというメッセージがくるか' do
       post :check, params: { id: "card", card: "H1 H13 H12 H11 H11"}
       expect(response.content_type).to eq "text/html"
       message = URI::decode response.body
-      expect(message).to include 'Stringで入力してください！'
+      expect(message).to include '入力されたデータが重複しています！'
     end
   end
 
@@ -126,7 +118,7 @@ RSpec.describe PokerController, :type => :controller do
       post :check, params: { id: "card", card: "H1 H13 H12 P11 H22"}
       expect(response.content_type).to eq "text/html"
       message = URI::decode response.body
-      expect(message).to include '文字のP11、2番目行の数字のH22、の入力されたデータが不正です！'
+      expect(message).to include '1番目行の文字のP11、1番目行の数字のH22、の入力されたデータが不正です！半角英字大文字のスート（S,H,D,C）と数字（1〜13）の組み合わせでカードを指定してください。'
     end
   end
 end

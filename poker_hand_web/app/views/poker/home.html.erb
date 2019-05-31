@@ -13,7 +13,10 @@
 
       <div class="error_content">
         <p style="color: black"><%= @result_content %></p>
-        <p style="color: red;"><%= @error_content %></p>
+        <% @error_content.each do |item| %>
+          <p style="color: red;">・<%= item %></p>
+        <% end %>
+
       </div>
     </div>
   </div>

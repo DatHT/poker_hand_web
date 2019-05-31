@@ -3,6 +3,9 @@ class PokerController < ApplicationController
   def home
     @input_content = params[:input_card]
     @result_content = params[:content]
+    if params[:error_message] == nil
+      params[:error_message] = []
+    end
     @error_content = params[:error_message]
   end
 
